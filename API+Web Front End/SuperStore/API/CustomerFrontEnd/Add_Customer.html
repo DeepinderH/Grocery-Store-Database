@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>New Customer Form</title>
+</head>
+<body>
+    <article>
+        <header>
+            <h1 style = "text-align:center;font-size:400%; background-color: green; color: white; margin: 0;">SuperStore</h1>
+        </header>
+        <nav style = "background-color:lightgreen; padding: 0;">
+            <ul>
+                <li style = "list-style-type: none; text-align: center;">
+                    <a style = "text-decoration: none; margin: 0 1.75vw; font-size: 1.35vw;" href="../MainPagesFrontEnd/MainPage.html">Home</a> 
+                    <a style = "text-decoration: none; margin: 0 1.75vw; font-size: 1.35vw;" href="../MainPagesFrontEnd/Customer_Page.html">Customer</a> 
+                    <a style = "text-decoration: none; margin: 0 1.75vw; font-size: 1.35vw;" href="../MainPagesFrontEnd/Employee_Page.html">Employee</a> 
+                    <a style = "text-decoration: none; margin: 0 1.75vw; font-size: 1.35vw;" href="../MainPagesFrontEnd/Manager_Page.html">Manager</a> 
+                </li>
+            </ul>
+        </nav>
+    </article>
+<form action="../Customer/Add_Customer.php" method="POST">
+    <table style="margin-left: auto; margin-right: auto;">
+        <tr>
+            <td>
+                ID: 
+            </td>
+            <td>
+                <input type="ID" placeholder = "ID" name = "ID" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                First Name: 
+            </td>
+            <td>
+                <input type="first_name" placeholder = "First Name" name = "first_name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Last Name: 
+            </td>
+            <td>
+                <input type="last_name" placeholder = "Last Name" name = "last_name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Sex: 
+            </td>
+            <td>
+                <input type="radio" name = "sex" value ="Male" required>Male
+                <input type="radio" name = "sex"  value ="Female" required>Female
+                <input type="radio" name = "sex"  value ="Other" required>Other
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Postal Code: 
+            </td>
+            <td>
+                <input type="postal_code" placeholder = "Postal Code" name = "postal_code" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                City: 
+            </td>
+            <td>
+                <input type="city" placeholder = "City" name = "city" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Province: 
+            </td>
+            <td>
+                <input type="province" placeholder = "Province" name = "province" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Street Name: 
+            </td>
+            <td>
+                <input type="street_name" placeholder = "Street Name" name = "street_name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email: 
+            </td>
+            <td>
+                <input type="email" placeholder = "Email" name = "email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth: 
+            </td>
+            <td>
+                <input type="date" placeholder = "Date of Birth" name = "date_of_birth" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Store ID: 
+            </td>
+            <td>
+                <select name="store_id" required> 
+                    <option selected hidden value="">Select Code</option>
+                    <option value="1"> 1 </option>
+                    <option value="2"> 2 </option>
+                    <option value="3"> 3 </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Points: 
+            </td>
+            <td>
+                <input type="points" placeholder = "Points" name = "points" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Member Number: 
+            </td>
+            <td>
+                <input type="member_number" placeholder = "Member Number" name ="member_number" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value = "Submit">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>New Accountant Form</title>
+</head>
+<body>
+    <article>
+        <header>
+            <h1 style = "text-align:center;font-size:400%; background-color: green; color: white; margin: 0;">SuperStore</h1>
+        </header>
+        <nav style = "background-color:lightgreen; padding: 0;">
+            <ul>
+                <li style = "list-style-type: none; text-align: center;">
+                    <a style = "text-decoration: none; margin: 0 1.75vw; font-size: 1.35vw;" href="../MainPagesFrontEnd/MainPage.html">Home</a> 
+                    <a style = "text-decoration: none; margin: 0 1.75vw; font-size: 1.35vw;" href="../MainPagesFrontEnd/Customer_Page.html">Customer</a> 
+                    <a style = "text-decoration: none; margin: 0 1.75vw; font-size: 1.35vw;" href="../MainPagesFrontEnd/Employee_Page.html">Employee</a> 
+                    <a style = "text-decoration: none; margin: 0 1.75vw; font-size: 1.35vw;" href="../MainPagesFrontEnd/Manager_Page.html">Manager</a> 
+                </li>
+            </ul>
+        </nav>
+    </article>
+<form action="../Manager/Add_Accountant.php" method="POST">
+    <table style="margin-left: auto; margin-right: auto;">
+        <tr>
+            <td>
+                Company ID: 
+            </td>
+            <td>
+                <input type="company_id" placeholder = "Company ID" name = "company_id" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Name: 
+            </td>
+            <td>
+                <input type="name" placeholder = "Name" name = "name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value = "Submit">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
