@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+<ImageView
+    android:id="@+id/backgroundView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@drawable/veg" />
+
+<TextView
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="51dp"
+    android:background="#028A39"
+    android:text=" SuperStore"
+    android:textColor="@color/white"
+    android:textSize="32dp" />
+
+
+<Button
+    android:id="@+id/useAsCustomer"
+    android:layout_width="357dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="267dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:text="Use as Customer"
+    android:textColor="@color/black"
+    app:backgroundTint="#FFFFFF" />
+
+<Button
+    android:id="@+id/useAsEmployee"
+    android:layout_width="357dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="327dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:text="Use as Employee"
+    android:textColor="@color/black"
+    app:backgroundTint="#FFFFFF" />
+
+<Button
+    android:id="@+id/useAsManager"
+    android:layout_width="356dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="390dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:text="Use as Manager"
+    android:textColor="@color/black"
+    app:backgroundTint="#FFFFFF" />
+
+</RelativeLayout>
+
+
+
